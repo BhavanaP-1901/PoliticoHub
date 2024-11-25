@@ -1,0 +1,5 @@
+com\tka\entity\Candidate.class
+com\tka\controller\ECCIController.class
+com\tka\dao\Dao.class
+com\tka\client\ECCIClient.class
+com\tka\service\Service.class
