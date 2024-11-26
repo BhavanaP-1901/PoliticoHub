@@ -1,31 +1,45 @@
-POLITICOHUB
-📜 Overview
-This is a Java-based application designed to manage election candidate information. It provides functionalities to view, add, update, and remove candidates, and search candidates based on criteria such as party name, assembly, name, or gender.
+# **POLITICOHUB**
 
-✨ Features
-🗂️ View all candidates
-➕ Add new candidates
-✏️ Update existing candidate details
-❌ Remove candidates
-🔍 Search candidates by:
-Party name
-Assembly
-Name
-Gender
+## **📜 Overview**
 
-🛠️ Technologies Used
-Java: Core development language.
-Maven: Build and dependency management.
-JDBC: Database connectivity.
-Packages:
-com.tka.entity: Represents the data model (e.g., Candidate class).
-com.tka.dao: Manages data persistence and database interactions.
-com.tka.service: Implements business logic.
-com.tka.controller: Coordinates between the client and service layers.
-com.tka.client: Entry point for the application (includes the main method).
+<div style="text-align: justify;">
+This is a Java-based application designed to manage election candidate information.  
+It provides functionalities to view, add, update, and remove candidates, and search candidates based on criteria such as party name, assembly, name, or gender.
+</div>
 
-📂 Project Structure
+---
 
+## **✨ Features**
+
+- 🗂️ **View all candidates**
+- ➕ **Add new candidates**
+- ✏️ **Update existing candidate details**
+- ❌ **Remove candidates**
+- 🔍 **Search candidates by**:
+  - **Party name**
+  - **Assembly**
+  - **Name**
+  - **Gender**
+
+---
+
+## **🛠️ Technologies Used**
+
+- **Java**: Core development language.
+- **Maven**: Build and dependency management.
+- **JDBC**: Database connectivity.
+- **Packages**:
+  - **`com.tka.entity`**: Represents the data model (e.g., `Candidate` class).
+  - **`com.tka.dao`**: Manages data persistence and database interactions.
+  - **`com.tka.service`**: Implements business logic.
+  - **`com.tka.controller`**: Coordinates between the client and service layers.
+  - **`com.tka.client`**: Entry point for the application (includes the main method).
+
+---
+
+## **📂 Project Structure**
+
+```plaintext
 src/
 ├── main/
 │   ├── java/
@@ -38,17 +52,22 @@ src/
 │   │           └── entity/         # Candidate entity and related models
 │   └── resources/                  # Configuration files (if any)
 └── test/                           # Unit tests
+```
+---
+## **⚙️ Prerequisites**
 
-⚙️ Prerequisites
-Java 8+
-Maven 3+
-MySQL (or any relational database)
-Proper database setup with tables matching the entity classes.
+- **Java 8+**
+- **Maven 3+**
+- **MySQL** (or any relational database)
+- Proper database setup with tables matching the entity classes.
 
-🤝 Contributing
+---
+
+## **🤝 Contributing**
+
 Contributions are welcome! To contribute:
 
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Commit your changes and push them to your fork.
-Submit a pull request.
+1. **Fork** the repository.
+2. Create a **new branch** for your feature or bug fix.
+3. Commit your changes and push them to your fork.
+4. Submit a **pull request**.
